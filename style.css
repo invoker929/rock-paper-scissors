@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.game-container {
+  margin: 2rem auto;
+  max-width: 500px;
+  border: 3px solid black;
+  border-radius: 1rem;
+  background: lightgray;
+  padding: 1rem;
+  text-align: center;
+}
+
+.game-text {
+  line-height: 4rem;
+}
+
+.player-text {
+  color: blue;
+}
+
+.computer-text {
+  color: red;
+}
+
+.choice-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+}
+
+.choice-btn:nth-child(odd) {
+  margin: 0 0.5rem;
+}
